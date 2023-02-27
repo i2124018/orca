@@ -1,0 +1,15 @@
+.loop_icon{
+    height: 150px;;
+    margin-top: 50px;
+}
+.slider{
+    visibility: hidden;
+}
+.slider.slick-initialized{
+    visibility: visible;
+}
+.slider img{
+    width: 150px;
+    height: 150px;
+    margin: 0 30px;
+}

@@ -1,0 +1,132 @@
+body{
+    background-color: #333333;
+    width: 375px;
+    margin: 0 auto;
+}
+.item{
+    margin-top: 68px;
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    height: 160px;
+    background-color: #333333(5, 84, 255);
+}
+.item_left,.item_right{
+    width: 187px;
+    padding-top: 15px;
+    position: relative;
+}
+.item_left li,.item_right li{
+    text-align: center;
+    font-size: 17px;
+    color: #EEEEEE;
+}
+.item_line{
+    border: #EEEEEE 1px solid;
+    border-radius: 10px;
+}
+.name{
+    width: 93px;
+    height: 21px;
+    border: #EEEEEE 2px solid;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #333333;
+}
+.name p{
+    font-size: 14px;
+    text-align: center;
+    color: #EEEEEE;
+    line-height: 21px;
+}
+.item .name{
+    left: 46px;
+    top: -11px;
+}
+.item_left ul li,.item_right ul li{
+    margin-bottom: 4px;
+}
+.local_1,.local_2{
+    margin-top: 54px;
+    color: #EEEEEE;
+}
+.detail_top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-top: #EEEEEE 1px solid
+}
+.detail_top .name{
+    left: 141px;
+    top: -13px;
+}
+.detail_top img{
+    width: 98px;
+    margin: auto;
+}
+.detail_img{
+    width: 155px;
+    margin-top: 72px
+}
+.detail_text{
+    width: 220px;
+}
+.detail_text img{
+    width: auto;
+    height: 50px;
+    margin: 30px auto 20px auto;
+}
+.detail_bottom{
+    display: flex;
+    justify-content: center;
+    gap:92px
+}
+.detail_bottom img{
+    margin: 42px 0  20px 0;
+}
+.local_2{
+    margin-top: 23px;
+}
+.local_2 ul li .detail_top{
+    flex-direction: row-reverse;
+}
+.local_2 ul li .detail_top .detail_img{
+    width: 131px;
+}
+.local_2 ul li .detail_top .detail_text{
+    width: 244px;
+}
+.local_2 ul li .detail_top .detail_text p{
+    padding-left: 18px;
+}
+.company{
+    margin-top: 50px;
+}
+.co_title{
+    width: 93px;
+    height: 16px;
+    margin: 0 auto;
+    border: #eeeeee 2px solid;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+}
+.co_title p{
+    line-height:16px;
+    text-align: center;
+    color: #333333;
+}
+.co_name,.co_name_2,.co_name_3{
+    margin: 9px 0 45px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.co_name li,.co_name_2 li,.co_name_3 li{
+    list-style: none;
+    font-size: 10px;
+    color: #EEEEEE;
+}
+.co_name_3{
+    margin-bottom: 0;
+}
