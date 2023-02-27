@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Zen Antique', serif;
+}
+#arrow{
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: calc(100vw/2 - 185px)
+}
+#arrow img:active{
+    transform: scale(0.9);
+}
+#arrow img{
+    width: 20px;
+    height: 38px;
+}
+img{
+    display: block;
+}
+p{
+    font-size: 10px;
+    line-height: 12px;
+}
+li{
+    list-style: none;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
+header{
+    width: 375px;
+    height: 90px;
+    position: relative;
+}
+.header_backgrounds{
+    width: 375px;
+    height: 90px;
+}
+.header_icon{
+    width: 56px;
+    height: 54px;
+    position: absolute;
+    top: 26px;
+    left: 29px;
+}
+.header_icon:active{
+    transform: scale(0.95);
+}
+.twitter_icon{
+    padding-top: 6px;
+    width: 36px;
+    height: 30px;
+}
+.gmap_icon{
+    width: 37px;
+    height: 37px;
+}
+main{
+    margin-bottom: 50px;
+}
