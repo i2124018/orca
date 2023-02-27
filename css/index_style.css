@@ -31,7 +31,7 @@ body{
     height: 57px;
     margin-bottom: 25px;
     display: flex;
-    margin-left: 17px;
+    margin-left:17px;
 }
 .detail_list:active{
     transform: scale(0.98);
